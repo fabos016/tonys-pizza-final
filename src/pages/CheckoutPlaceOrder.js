@@ -8,7 +8,11 @@ import NavbarOther from '../components/NavbarOther';
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
+import {useTranslation} from 'react-i18next';
+
 function CheckoutPlaceOrder() {
+    const {t, i18n} = useTranslation();
+
     return (
         <div className="CheckoutPlaceOrder">
             <header className="App-header">
@@ -19,31 +23,31 @@ function CheckoutPlaceOrder() {
             </header>
 
             <div style={{marginTop: '5%', marginLeft: '25%', marginRight: '25%'}}>
-            <div style={{display: 'flex', fontSize: '24px'}}>
+                <div style={{display: 'flex', fontSize: '24px'}}>
                     <span style={{flexGrow: '1'}}>
-                        Selection
+                        {t('Selection')}
                     </span>
                     <span style={{flexGrow: '1'}}>
-                        Order Details
+                        {t('Order Details')}
                     </span>
                     <span style={{flexGrow: '1'}}>
-                        Your Info
+                        {t('Your Info')}
                     </span>
                     <span style={{flexGrow: '1'}}>
-                        Delivery
+                        {t('Delivery')}
                     </span>
                 </div>
-                <div class="progress">
-                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="75"
+                <div className="progress">
+                    <div className="progress-bar progress-bar-success" role="progressbar" aria-valuenow="75"
                         aria-valuemin="0" aria-valuemax="100" style={{width: '75%', backgroundColor: 'green'}}>
                     </div>
                 </div>
 
-                <p style={{marginTop: '10%', fontSize: '38px', fontFamily: 'Overpass'}}>Order Total: ${sessionStorage.getItem('total')}</p>
+                <p style={{marginTop: '10%', fontSize: '38px', fontFamily: 'Overpass'}}>{t('Order Total')}: ${sessionStorage.getItem('total')}</p>
                     
                 <CustomerInfo />
 
-                <Link to='/order'><Button className='bg-dark' style={{width: '100%', marginTop: '5%'}}>Place Order</Button></Link>
+                <Link to='/order'><Button name="Place Order" className='bg-dark btn-primary' style={{width: '100%', marginTop: '5%'}}>{t('Place Order')}</Button></Link>
             </div>
         </div>
     );

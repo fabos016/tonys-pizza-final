@@ -1,6 +1,6 @@
 {
-  "name": "tonys-pizza-site",
-  "homepage": "https://fabos016.github.io/tonys-pizza-site",
+  "name": "tonys-pizza-final",
+  "homepage": "https://fabos016.github.io/tonys-pizza-final",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
@@ -9,9 +9,11 @@
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.0",
     "gh-pages": "^5.0.0",
+    "i18next": "^23.2.11",
     "react": "^18.2.0",
     "react-bootstrap": "^2.8.0",
     "react-dom": "^18.2.0",
+    "react-i18next": "^13.0.2",
     "react-native": "^0.72.1",
     "react-native-web": "^0.19.6",
     "react-router-dom": "^6.14.1",

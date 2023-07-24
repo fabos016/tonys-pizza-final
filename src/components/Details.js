@@ -54,9 +54,19 @@ function CheckoutItems() {
             </div>
 
             <div className="card-footer text-muted">
-                <b>Quantity: {findCard(pizzas.find(x => x.name === JSON.parse(pizza)).name)[1]}</b>
+                <div name="card-footer-inner">
+                  <div name="Quantity">
+                    Quantity
+                  </div>
+                </div>
+                <b>{findCard(pizzas.find(x => x.name === JSON.parse(pizza)).name)[1]}</b>
                 <p></p>
-                <b>Total: ${findCard(pizzas.find(x => x.name === JSON.parse(pizza)).name)[2]}</b>
+                <div name="card-footer-inner">
+                  <div name="Total">
+                    Total
+                  </div>
+                </div>
+                <b>{findCard(pizzas.find(x => x.name === JSON.parse(pizza)).name)[2]}</b>
             </div>
         </div>
 

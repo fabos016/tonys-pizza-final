@@ -5,7 +5,11 @@ import NavbarOther from '../components/NavbarOther';
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
+import {useTranslation} from 'react-i18next';
+
 function Order() {
+    const {t, i18n} = useTranslation();
+
     return (
         <div className="Order">
             <header className="App-header">
@@ -16,10 +20,10 @@ function Order() {
             </header>
 
             <div style={{marginTop: '5%', marginLeft: '25%', marginRight: '25%'}}>
-                <b style={{fontSize: '38px', fontFamily: 'Overpass', color: 'green'}}>Your order has been placed!</b>
+                <b style={{fontSize: '38px', fontFamily: 'Overpass', color: 'green'}}>{t('Your order has been placed!')}</b>
                     
                 <OrderContent />
-                <b style={{fontSize: '18px', fontFamily: 'Overpass'}}>NOTE: Payment is made in-person to the delivery driver upon pizza delivery.</b>
+                <b style={{fontSize: '18px', fontFamily: 'Overpass'}}>{t('NOTE: Payment is made in-person to the delivery driver upon pizza delivery.')}</b>
             </div>
         </div>
     );

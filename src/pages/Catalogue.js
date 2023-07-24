@@ -3,12 +3,19 @@ import {Button} from "react-bootstrap";
 import {Link} from 'react-router-dom';
 
 import NavbarOther from '../components/NavbarOther';
-import SearchFilters from '../components/SearchFilters';
 import CatalogueItems from '../components/CatalogueItems';
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
+import {useTranslation} from 'react-i18next';
+
 function Catalogue() {
+    const {t, i18n} = useTranslation();
+
+    function carryForwardLang() {
+        sessionStorage.setItem('lang', i18n.language === "en" ? "fr" : "en");
+    }
+
     return (
         <div className="Catalogue">
             <header className="App-header">
@@ -19,13 +26,9 @@ function Catalogue() {
             </header>
 
             <div style={{marginLeft: "10%", marginRight: "10%"}}>
-                <SearchFilters />
-            
-                <div style={{gap: '25px', marginTop: '5%', marginLeft: '25%', marginRight: '25%', display: 'flex', flexWrap: 'wrap'}}>
-                    <CatalogueItems />
-                </div>
+                <CatalogueItems />
 
-                <Link to='/checkout'><Button id={"checkoutButton"} disabled={true} className='bg-dark' style={{width: '100%', marginTop: '5%'}}>Checkout</Button></Link>
+                <Link onClick={carryForwardLang()} to='/checkout'><Button name="Checkout" id={"checkoutButton"} disabled={true} className='bg-dark' style={{width: '100%', marginTop: '5%'}}>Checkout</Button></Link>
             </div>
         </div>
     );
