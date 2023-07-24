@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/tonys-pizza-final/static/css/main.0a8da328.css",
+    "main.js": "/tonys-pizza-final/static/js/main.29122319.js",
+    "static/js/787.f1b53d83.chunk.js": "/tonys-pizza-final/static/js/787.f1b53d83.chunk.js",
+    "static/media/linktocataloguebanner.png": "/tonys-pizza-final/static/media/linktocataloguebanner.b8d970993699e08e2b67.png",
+    "static/media/stuffedcrustbannerXfr.png": "/tonys-pizza-final/static/media/stuffedcrustbannerXfr.6929a36f9d5c0323fd53.png",
+    "static/media/stuffedcrustbanner.png": "/tonys-pizza-final/static/media/stuffedcrustbanner.92c08154aa572b9ad762.png",
+    "static/media/logo-pizza-banner.png": "/tonys-pizza-final/static/media/logo-pizza-banner.1179bdb88973af3abe60.png",
+    "static/media/newyorkstylebanner.png": "/tonys-pizza-final/static/media/newyorkstylebanner.cd143068a0f9a0aa9dd6.png",
+    "static/media/tonyimage.png": "/tonys-pizza-final/static/media/tonyimage.0ecd489b5effd91b8094.png",
+    "static/media/storeimage.png": "/tonys-pizza-final/static/media/storeimage.dab45da202b037875edb.png",
+    "static/media/greenieflatbreadsbannerXfr.png": "/tonys-pizza-final/static/media/greenieflatbreadsbannerXfr.43731364a58df739369b.png",
+    "static/media/greenieflatbreadsbanner.png": "/tonys-pizza-final/static/media/greenieflatbreadsbanner.2ffe81b72bddbcc649bc.png",
+    "static/media/cheesefrenzybanner.png": "/tonys-pizza-final/static/media/cheesefrenzybanner.dedb6cdfb8bf114f8b99.png",
+    "static/media/cheesefrenzybannerXfr.png": "/tonys-pizza-final/static/media/cheesefrenzybannerXfr.a62c3f0586ce81819306.png",
+    "static/media/stuffedcrust.png": "/tonys-pizza-final/static/media/stuffedcrust.096a6d505b20e385603a.png",
+    "static/media/newyorkstylebannerXfr.png": "/tonys-pizza-final/static/media/newyorkstylebannerXfr.eb9433219991463d79f2.png",
+    "static/media/porkdetroitbanner.png": "/tonys-pizza-final/static/media/porkdetroitbanner.6ee69bfcd627a5623e32.png",
+    "static/media/porkdetroitbannerXfr.png": "/tonys-pizza-final/static/media/porkdetroitbannerXfr.1b02fb5da4f5bd8d6827.png",
+    "static/media/logopizzabannerXfr.png": "/tonys-pizza-final/static/media/logopizzabannerXfr.8ab8a73a4f0353c31593.png",
+    "static/media/linktocataloguebannerXfr.png": "/tonys-pizza-final/static/media/linktocataloguebannerXfr.85d7d2cafc2e023fa642.png",
+    "static/media/greenieflatbreads.png": "/tonys-pizza-final/static/media/greenieflatbreads.e397b3da056311a08abc.png",
+    "static/media/cheesefrenzy.png": "/tonys-pizza-final/static/media/cheesefrenzy.0dc66b38aaec44c9c044.png",
+    "static/media/logo.png": "/tonys-pizza-final/static/media/logo.2a396a88f98db50ede9c.png",
+    "static/media/porkcuts.png": "/tonys-pizza-final/static/media/porkcuts.964c56d89021818bb4f2.png",
+    "static/media/newyorkstyle.png": "/tonys-pizza-final/static/media/newyorkstyle.f7c412633c1043b6160e.png",
+    "static/media/balancio.png": "/tonys-pizza-final/static/media/balancio.ddfcd48f327cde61d3a1.png",
+    "static/media/logoXfr.png": "/tonys-pizza-final/static/media/logoXfr.7a7621c9beda8b19afd6.png",
+    "index.html": "/tonys-pizza-final/index.html",
+    "main.0a8da328.css.map": "/tonys-pizza-final/static/css/main.0a8da328.css.map",
+    "main.29122319.js.map": "/tonys-pizza-final/static/js/main.29122319.js.map",
+    "787.f1b53d83.chunk.js.map": "/tonys-pizza-final/static/js/787.f1b53d83.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a8da328.css",
+    "static/js/main.29122319.js"
+  ]
+}
